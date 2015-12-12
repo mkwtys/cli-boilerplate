@@ -3,5 +3,8 @@
   "description": "boilerplate of the command line interface",
   "version": "0.0.0",
   "author": "mkwtys",
+  "bin": {
+    "cli": "bin/cli.js"
+  },
   "license": "MIT"
 }
