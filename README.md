@@ -10,6 +10,7 @@ Boilerplate of the command line interface.
 - [ ] options
 - [ ] help
 - [ ] errors
+- [ ] test
 
 
 ## Reference
