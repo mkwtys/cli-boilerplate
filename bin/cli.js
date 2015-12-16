@@ -1,3 +1,3 @@
 #! /usr/bin/env node
 
-console.log("cli output");
+require('../lib/cli');
