@@ -33,7 +33,7 @@ Options
 }
 
 function showVersion() {
-  console.log(`${pkg.version}`);
+  console.log(pkg.version);
 }
 
 if (argv.help) {
