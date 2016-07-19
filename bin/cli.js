@@ -1,9 +1,7 @@
 #! /usr/bin/env node
 'use strict';
-
 const minimist = require("minimist");
 const pkg = require("../package.json");
-
 const argv = minimist(process.argv.slice(2), {
   boolean: [
     "help",
@@ -18,6 +16,10 @@ const argv = minimist(process.argv.slice(2), {
     "version": false
   }
 });
+
+function main() {
+  console.log('cli-boilerplate');
+}
 
 function showHelp() {
   console.log(`
@@ -42,4 +44,8 @@ if (argv.help) {
 
 if (argv.version) {
   showVersion();
+}
+
+if (argv._.length > 0) {
+  main();
 }
